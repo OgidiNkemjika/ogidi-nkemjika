@@ -10,6 +10,7 @@ body {
     background: #181818;
     color: #fff;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /* Navbar styles */
@@ -76,6 +77,7 @@ body {
     padding: 200px 60px 40px 60px;
     gap: 80px;
     background: #181818;
+    overflow-x: hidden;
 }
 .profile-picture img {
     border-radius: 50%;
@@ -140,6 +142,7 @@ body {
 .about-me {
     background: #181818;
     /* padding: 60px 0; */
+    overflow-x: hidden;
 }
 .about-container {
     display: flex;
@@ -182,6 +185,7 @@ body {
     gap: 50px;
     background: #181818;
     padding: 60px;
+    overflow-x: hidden;
 }
 .education, .internship {
     flex: 1;
@@ -233,6 +237,7 @@ body {
 .project-content {
     background: #222;
     padding: 60px 0;
+    overflow-x: hidden;
 }
 .project-title h4 {
     color: orangered;
@@ -284,6 +289,7 @@ body {
 .contact-content {
     background: #181818;
     padding: 60px 0;
+    overflow-x: hidden;
 }
 .contact-title h4 {
     color: orangered;
@@ -391,5 +397,8 @@ body {
     .footer {
         font-size: 0.9rem;
         padding: 3px 8px;
+    }
+    .body{
+        overflow-x: hidden;
     }  
 }
